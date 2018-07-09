@@ -8,7 +8,7 @@ count--;
 console.log(count);
 
 
-},1000);
+},100000);
 
 }
 
@@ -22,14 +22,11 @@ console.log("Game finished");
 }
 
 
-
-
-
 $("document").ready(function() {
   $("#start").on("click", function() {
     // console.log("test");
     $("#buttons").hide();
-    $("#questions").show();
+    $(".questions").show();
     $("#answers").show();
     startTimer();
     endGame();

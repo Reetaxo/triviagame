@@ -1,3 +1,28 @@
-#questions, #answers {
+
+body {
+    background: url("../images/satc.jpg");
+    /* size: 100%; */
+    color: palevioletred;
+    background-repeat: no-repeat;
+    /* background-position: right top; */
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#container {
+	background-color: #fff;
+	opacity: 0.6;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.jumbotron {
+    background-color: inherit;
+    text-align: center;
+  
+}
+
+.questions, #answers {
     display: none;
 } 
+
